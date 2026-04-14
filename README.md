@@ -1,3 +1,4 @@
+
 # Online Book Store (MERN)
 
 Complete end-to-end online bookstore using:
@@ -82,4 +83,5 @@ Users register as `customer` by default. To test admin features, update a user r
 
 js
 db.users.updateOne({ email: "your@email.com" }, { $set: { role: "admin" } });
+
 
